@@ -45,8 +45,9 @@ function mostrarPreguntasAleatorias() {
 
   // Añadir el botón de recarga al final
   const reloadBtn = document.createElement("button");
-  reloadBtn.innerHTML = '<i class="bi bi-arrow-repeat"></i>';
-  reloadBtn.title = "Cambiar preguntas";
+reloadBtn.innerHTML = '<i class="bi bi-arrow-repeat"></i>';
+reloadBtn.title = "Cambiar preguntas";
+
   reloadBtn.className = "option-button reload";
   reloadBtn.addEventListener("click", () => {
     mostrarPreguntasAleatorias();
