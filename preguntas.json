@@ -1,0 +1,26 @@
+[
+  {
+    "palabrasClave": ["administración", "gestión", "organizar"],
+    "preguntas": [
+      "¿Qué es la administración?",
+      "¿Cómo funciona la gestión en una empresa?"
+    ],
+    "respuesta": "La administración es el proceso de planificar, organizar, dirigir y controlar los recursos para alcanzar objetivos específicos."
+  },
+  {
+    "palabrasClave": ["marketing", "mercadeo", "publicidad"],
+    "preguntas": [
+      "¿Qué es el marketing?",
+      "¿Cuál es la función del mercadeo?"
+    ],
+    "respuesta": "El marketing es el conjunto de actividades y estrategias para promover y vender productos o servicios."
+  },
+  {
+    "palabrasClave": ["contabilidad", "finanzas", "registros"],
+    "preguntas": [
+      "¿Qué es la contabilidad?",
+      "¿Qué hace un contador?"
+    ],
+    "respuesta": "La contabilidad es la disciplina que se encarga de registrar, clasificar y resumir las transacciones financieras de una empresa."
+  }
+]

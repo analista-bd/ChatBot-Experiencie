@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot Educativo Empresarial</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">🤖 Chat Educativo Empresarial</div>
+
+    <div class="chat-box" id="chat-box">
+      <div class="message bot">¡Hola! Selecciona una pregunta o escríbela para comenzar.</div>
+    </div>
+
+    <div class="options" id="options">
+      <button class="option-button">¿Qué es la administración?</button>
+      <button class="option-button">¿Qué es el marketing?</button>
+      <button class="option-button">¿Qué es la contabilidad?</button>
+      <button class="option-button">¿Qué es el emprendimiento?</button>
+      <button class="option-button">¿Qué es la estrategia empresarial?</button>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Escribe tu pregunta aquí..." />
+      <button id="send-button">Enviar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!--Ejecutar servidor de python por medio de consolo cmd
+-> primero ubicarse en la carpeta->  cd RUTA
+
+python -m http.server 8000 
+
+
+
+Pegar en el navegador
+http://localhost:8000/
+-->
