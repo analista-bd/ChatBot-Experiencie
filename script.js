@@ -30,7 +30,7 @@ function mostrarPreguntasAleatorias() {
   todas = todas.sort(() => Math.random() - 0.5);
 
   // Mostrar solo 5
-  const seleccionadas = todas.slice(0, 5);
+  const seleccionadas = todas.slice(0, 3);
 
   seleccionadas.forEach(pregunta => {
     const btn = document.createElement("button");
@@ -45,7 +45,8 @@ function mostrarPreguntasAleatorias() {
 
   // Añadir el botón de recarga al final
   const reloadBtn = document.createElement("button");
-  reloadBtn.textContent = "🔄 Cambiar preguntas";
+  reloadBtn.innerHTML = '<i class="bi bi-arrow-repeat"></i>';
+  reloadBtn.title = "Cambiar preguntas";
   reloadBtn.className = "option-button reload";
   reloadBtn.addEventListener("click", () => {
     mostrarPreguntasAleatorias();
