@@ -10,13 +10,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100dvh; /* mejor soporte en móviles */
+  padding: 10px; /* evita que los bordes queden pegados */
 }
 
 .chat-container {
   width: 100%;
   max-width: 400px;
-  height: 600px;
+  height: 100%;
+  max-height: 600px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -85,7 +87,6 @@ body {
   background-color: #075e54;
 }
 
-
 .input-area {
   display: flex;
   align-items: center;
@@ -123,4 +124,12 @@ body {
 
 #send-button:hover {
   background-color: #075e54;
+}
+
+@media (max-width: 480px) {
+  .chat-container {
+    border-radius: 0;
+    max-height: none;
+    height: 100%;
+  }
 }
