@@ -13,7 +13,7 @@ app.post("/chat", async (req, res) => {
   const openaiRes = await fetch("https://api.cohere.ai/v1/generate", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer mNAYmfG3CmgdOaGbc8QosqAi5G4gAZXqxOhAA5jL",
+      "Authorization": "Bearer ",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
